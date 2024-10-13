@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Ejecutar Main SegConsigna",
+            "request": "launch",
+            "mainClass": "Main", 
+            "projectName": "SegConsigna" 
+        }
+    ]
+}
