@@ -1,21 +1,21 @@
-# Trabajo Práctico de Concurrencia en Java 
+# Java Concurrency Practical Work
 
-Este repositorio contiene soluciones a los ejercicios prácticos de la capacitación Java de la empresa Epidata.
+This repository contains solutions to the practical exercises from the Java training at the company Epidata.
 
-## Ejercicio 1: Reporte del Espacio Ocupado por un Directorio
-Genera un reporte del espacio ocupado por un directorio y sus subdirectorios utilizando los métodos `length()`, `listFiles()`, e `isDirectory()` de la clase `File`.
+## Exercise 1: Directory Space Usage Report
+Generates a report of the space occupied by a directory and its subdirectories using the `length()`, `listFiles()`, and `isDirectory()` methods from the `File` class.
 
-## Ejercicio 2: Análisis de Archivos de Texto
-Analiza una lista de archivos de texto contando el uso de cada palabra. Los resultados se acumulan utilizando `Executors` y `Callable`.
+## Exercise 2: Text File Analysis
+Analyzes a list of text files by counting the usage of each word. Results are aggregated using `Executors` and `Callable`.
 
-## Ejercicio 3: Estimación de Pi
-Estima π mediante un proceso aleatorio en un círculo de radio 1. Se implementa una versión inicial de un solo hilo y luego una versión multihilo para mejorar el rendimiento.
+## Exercise 3: Pi Estimation
+Estimates π using a random process within a circle of radius 1. Implements an initial single-threaded version followed by a multithreaded version to improve performance.
 
-## Ejercicio 4: Barbería
-Modelo de una barbería donde un barbero atiende a clientes que llegan aleatoriamente, gestionando una sala de espera con un número limitado de sillas.
+## Exercise 4: Barber Shop
+Models a barber shop where a barber serves customers arriving randomly, managing a waiting room with a limited number of chairs.
 
-## Ejercicio 5: Banco
-Simula el funcionamiento de un banco donde los clientes realizan operaciones de depósito o extracción. Se controla el saldo del cajero y se registra el historial de transacciones.
+## Exercise 5: Bank
+Simulates a bank where customers perform deposit or withdrawal operations. Controls the teller's balance and records the transaction history.
 
-## Requisitos
-- Java 8 o superior.
+## Requirements
+- Java 8 or higher.
